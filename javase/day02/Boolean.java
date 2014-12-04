@@ -11,3 +11,10 @@ public class Boolean{
 		System.out.println("flag="+flag);
 		}
 }
+/*
+	Scanner in = new Scanner (System.in);
+	System.out.print("what is your name:");
+	String name =in.nextLine();
+	Scanner in =new Scanner (System.in);
+	int score=in.nextInt();
+*/
