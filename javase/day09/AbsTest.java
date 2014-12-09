@@ -7,8 +7,7 @@ public class AbsTest{
 		System.out.println(s2.getType());
 		System.out.println("周长是"+s2.calPerimeter());
 		System.out.println("--------------------------");
-		
-		 
+				 
 		Triangle s11 = new Triangle();
 		Circle s22 = new Circle();
 		s11.setColor("黄");
@@ -20,5 +19,20 @@ public class AbsTest{
 		System.out.println("周长是"+s11.calPerimeter());
 		System.out.println(s22.getType());
 		System.out.println("周长是"+s22.calPerimeter());
+		
+		System.out.println("--------------------------");
+		Triangle s12 = new Triangle();
+		Shape s23 = new Circle();
+		Triangle b =(Triangle)s12;
+		Circle c  = (Circle)s23;
+		
+		b.setColor("红色");
+		b.setSides(4,5,6);
+		c.setR(6.0);
+		c.setColor("灰色");
+		System.out.println(b.getType());
+		System.out.println("周长是"+b.calPerimeter());
+		System.out.println(c.getType());
+		System.out.println("周长是"+c.calPerimeter());
 	}
 }
