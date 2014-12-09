@@ -20,13 +20,3 @@ public class BaseTest{
 	
 }
 
- class BeseDemo{
-	public static void main (String [] args){
-		BeseTest bese = new BeseTest();
-		best.pri_show();
-		best.def_show();
-		best.pro_show();
-		best.pub_show();
-		
-	}
- }
