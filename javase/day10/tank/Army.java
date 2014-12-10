@@ -21,9 +21,9 @@ public class Army{
 		if(n<num){
 			m[n]=wa;
 			System.out.println("武器库加入了"+(n+1)+"个武器");
-			
+			n++;
 		}
-		n++;
+		
 	}
 	//让所有武器攻击 就是将数组遍历一次
 	public void attackAll(){
